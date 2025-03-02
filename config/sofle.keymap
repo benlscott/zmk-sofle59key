@@ -88,11 +88,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5                       &kp F6        &kp F7         &kp F8             &kp F9                &kp F10                &kp F11
-&kp N1  &kp N2    &kp N3  &kp N4    &kp N5    &kp N5                       &kp CARET     &kp AMPERSAND  &kp UNDER          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp MINUS     &kp EQUAL      &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
-&kp N7  &kp N8    &kp N9  &kp N0    &kp LBRC  &kp RBRC   &trans    &trans  &kp ASTERISK  &kp PLUS       &kp LEFT_BRACE     &kp RIGHT_BRACE       &kp PIPE               &kp BACKSLASH
-                  &trans  &trans    &trans    &trans     &trans    &trans  &trans        &trans         &trans             &trans
+&trans  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5                       &kp F6          &kp F7         &kp F8             &kp F9                &kp F10                &kp F11
+&kp N1  &kp N2    &kp N3  &kp N4    &kp N5    &kp N5                       &kp CARET       &kp AMPERSAND  &kp ASTERISK       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp MINUS       &kp EQUAL      &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH
+&kp N7  &kp N8    &kp N9  &kp N0    &kp LBRC  &kp RBRC   &trans    &trans  &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE     &kp RIGHT_BRACE       &kp PIPE               &kp BACKSLASH
+                  &trans  &trans    &trans    &trans     &trans    &trans  &trans          &trans         &trans             &trans
             >;
 
             sensor-bindings =
