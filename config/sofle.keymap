@@ -53,7 +53,7 @@
         };
 
         screencap {
-            bindings = <&none>;
+            bindings = <&screencap>;
             key-positions = <25 27 26 28>;
         };
 
