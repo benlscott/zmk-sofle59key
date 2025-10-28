@@ -110,7 +110,9 @@
                           &kp LGUI  &kp LCTRL  &kp SPACE  &kp LEFT_SHIFT  &mo 1        &mo 2  &kp RIGHT_SHIFT  &kp ENTER  &kp END    &kp CAPSLOCK
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         lower_layer {
